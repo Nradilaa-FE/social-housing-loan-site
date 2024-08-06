@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/twitterFetcher_min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="logo navbar-brand"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-building-gear" viewBox="0 0 16 16">
+                <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1z"/>
+                <path d="M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.386 1.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+              </svg>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse navbar-menu" id="navbarSupportedContent">
+              <ul class="navbar-nav nav-links">
+                <div class="nav-links-container">   
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">BSB 802 126</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="bi bi-house-lock"></i> eStatement Login</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white" href="#"><i class="bi bi-house-lock"></i> Internet Banking</a>
+                        </li>
+                </div>
+                <div class="nav-links-container">   
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Loans</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Banking</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Why Macquarie?</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Support</a>
+                  </li> 
+                </div> 
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <section class="sidenavbar">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#"><i class="bi bi-mouse"></i><p>Apply Online</p></a></li>
+                <li><a href="#"><i class="bi bi-geo"></i><p>Locate Us</p></a></li>
+                <li><a href="#"><i class="bi bi-calculator"></i><p>Calculators</p></a></li>
+                <li><a href="#"><i class="bi bi-bar-chart"></i><p>Rates & Fees</p></a></li>
+                <li><a href="#"><i class="bi bi-cash-coin"></i><p>Savings</p></a></li>
+                <li><a href="#"><i class="bi bi-file-earmark-medical"></i><p>Insurance</p></a></li>
+                <li><a href="#"><i class="bi bi-telephone"></i><p>Contact us</p></a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="hero">
+        <div class="text-container-banner">
+            <h1>Special Housing Home Loan</h1>
+            <p>3.89% p.a.  4.03% p.a.</p>
+            <p>Great low rates made simple</p>
+            <button>Apply now</button>
+        </div>
+        
+    </section>
+
+    <section class="main-content">
+        <div class="content-1 container">
+            <div class="promo-campaign">
+                <h4 class="text-center w-100">Promotional campaign</h4>
+                <button>Learn more</button>
+            </div>
+            <div id="newsCarousel" class="news-carousel carousel slide" data-ride="carousel">
+                <div class="overlay-image"></div>
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#newsCarousel" data-slide-to="1"></li>
+                    <li data-target="#newsCarousel" data-slide-to="2"></li>
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image: url('./images/slide1.png');">
+                        <div class="carousel-item-content">
+                            <h4>Latest news at Macquarie</h4>
+                            <p>To find out more please click button below</p>
+                            <button>Learn more</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('./images/slide2.png');">
+                        <div class="carousel-item-content">
+                            <h4>Latest news at Macquarie</h4>
+                            <p>To find out more please click button below</p>
+                            <button>Learn more</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('./images/slide3.png');">
+                        <div class="carousel-item-content">
+                            <h4>Latest news at Macquarie</h4>
+                            <p>To find out more please click button below</p>
+                            <button>Learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-2">
+            <div class="container">
+                <div class="item featured-story overlay-image">
+                    <div class="overlay-image"></div>
+                    <div class="container-item">
+                        <h4>Featured sponsorship story</h4>
+                        <p>Lorem ipsum dolor sit amet, fabellas electrm his ut, electrm his ut. Lorem ipsum dolor sit amet, fabellas electrm his ut.</p>
+                        <button>Learn more</button>       
+                    </div>
+                </div>
+                <div class="item testimonial">
+                    <div class="overlay-image"></div>
+                    <div class="container-item">
+                        <h4>Client testimonial</h4>
+                        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit amet, fabellas electrm his ut,amet, fabellas electrm his ut, fabellas electrm his ut,</p>
+                        <button>Watch Simon's story</button>
+                    </div>
+                  </div>
+                <div class="item social-feed">
+                    <h4>Social Feed</h4>
+                    <iframe src='https://www.juicer.io/api/feeds/williamhgates-03175573-164e-40a5-ba51-b3ef17a56597/iframe' frameborder='0' width='400' height='300' style='display:block;margin:0 auto;'></iframe>
+                </div>
+                <div class="item community-support">
+                    <div class="overlay-image"></div>
+                    <div class="container-item">
+                        <h4>Need a sponsor for your community project?</h4>
+                        <button>Apply for Community Support</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="products">
+                    <h4>PRODUCTS</h4>
+                    <ul>
+                        <li>Sit amet</li>
+                        <li>Normani placerat sea</li>
+                        <li>Utramcorper</li>
+                        <li>Et al</li>
+                    </ul>
+                </div>
+                <div class="tools">
+                    <h4>TOOLS & CALCULATORS</h4>
+                    <ul>
+                        <li>Nomani placerat sea</li>
+                        <li>Officia lucri</li>
+                        <li>Feugait eorum</li>
+                        <li>Utramcorper</li>
+                    </ul>
+                </div>
+                <div class="legal">
+                    <h4>LEGAL STUFF</h4>
+                    <ul>
+                        <li>Disserunt duo tetation</li>
+                        <li>Officia lucri</li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h4>USEFUL LINKS</h4>
+                    <ul>
+                        <li>Disserunt duo tetation</li>
+                        <li>Officia lucri</li>
+                        <li>Et al</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <div class="footer-content-2">
+            <div class="footer-left">
+              <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-telephone-fill"></i></a>
+              </div>
+              <ul class="footer-links">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Disclosure Documents</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-building-gear" viewBox="0 0 16 16">
+                    <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6.5a.5.5 0 0 1-1 0V1H3v14h3v-2.5a.5.5 0 0 1 .5-.5H8v4H3a1 1 0 0 1-1-1z"/>
+                    <path d="M4.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm-6 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.386 1.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382zM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+                  </svg>
+              </div>
+            </div>
+            <div class="footer-right">
+              <h3>Get in touch</h3>
+              <form id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <textarea id="comments" name="comments" placeholder="Comments" required></textarea>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

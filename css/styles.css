@@ -20150,6 +20150,11 @@ header nav .nav-links .nav-links-container, header .navbar-menu .nav-links .nav-
   display: flex;
   justify-content: flex-end;
 }
+header nav .nav-links ul, header .navbar-menu .nav-links ul {
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+}
 header nav .nav-links li, header .navbar-menu .nav-links li {
   margin-left: 20px;
 }
@@ -20190,6 +20195,7 @@ header nav .burger i, header .navbar-menu .burger i {
 }
 .sidenavbar .sidebar li {
   margin-top: 15px;
+  list-style-type: none;
 }
 .sidenavbar .sidebar a {
   display: flex;
@@ -20283,11 +20289,12 @@ header nav .burger i, header .navbar-menu .burger i {
   box-sizing: border-box;
   border-radius: 24px;
 }
-.main-content .content-1 .promo-campaign h4, .main-content .content-1 .promo-campaign .h4 {
+.main-content .content-1 .promo-campaign p {
   background-color: #001871;
   color: white;
   padding-top: 9px;
   padding-bottom: 9px;
+  font-size: 24px;
 }
 .main-content .content-1 .news-carousel {
   flex: 0 0 40%; /* 40% width */

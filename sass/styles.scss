@@ -100,6 +100,12 @@ header {
                 justify-content: flex-end;
             }
 
+            ul {
+                padding-left: 0;
+                margin: 0;
+                list-style-type: none; // Remove default list styling
+            }
+
             li {
                 margin-left: 20px;
 
@@ -148,6 +154,7 @@ header {
 
         li {
             margin-top: 15px;
+            list-style-type: none; // Remove default list styling
         }
 
         a {
@@ -252,11 +259,12 @@ header {
             box-sizing: border-box;
             border-radius: 24px;
 
-            h4{
+            p{
                 background-color: $secondary-color;
                 color: white;
                 padding-top: 9px;
                 padding-bottom: 9px;
+                font-size: 24px;
             }
         }
         

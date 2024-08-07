@@ -20324,6 +20324,13 @@ header nav .burger i, header .navbar-menu .burger i {
 .main-content .content-1 .news-carousel .carousel-indicators .active {
   background-color: #FFE600;
 }
+.main-content .content-1 .news-carousel .title-slide {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0;
+}
 .main-content .content-1 .promo-campaign, .main-content .content-1 .news-carousel, .main-content .content-1 .community-section {
   margin-bottom: 20px;
 }

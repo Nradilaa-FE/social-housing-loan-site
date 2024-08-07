@@ -299,6 +299,14 @@ header {
             .carousel-indicators .active {
                 background-color: #FFE600;
             }
+
+            .title-slide{
+                font-size: 24px;
+                font-family: $font-primary;
+                color: white;
+                font-weight: 700;
+                margin-bottom: 0;
+            }
         }
 
         .promo-campaign, .news-carousel, .community-section {

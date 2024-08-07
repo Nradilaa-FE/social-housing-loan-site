@@ -26,12 +26,11 @@ body {
 
         &:hover {
             background-color: #FFE600;
-           
             color: $secondary-color
         }
     }
 
-    h1, h2, h3, h4 {
+    h1, h2, h3 {
         font-family: $font-primary;
         font-weight: 700;
     }
@@ -49,8 +48,6 @@ body {
             border-radius: 24px;
     }
 }
-
-
 
 header {
     background: linear-gradient(to bottom, #001871 50%, #1561E8 50%);
@@ -248,7 +245,7 @@ header {
         .promo-campaign {
             flex: 0 0 60%; /* 60% width */
             background-color: #f4f4f4; 
-            background-image: url('../images/promotion.png');
+            background-image: url('../images/promotional.webp');
             background-size: cover; 
             background-position: center; 
             background-repeat: no-repeat; 

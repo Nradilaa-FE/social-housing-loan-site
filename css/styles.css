@@ -20089,7 +20089,7 @@ body button:hover {
   background-color: #FFE600;
   color: #001871;
 }
-body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .h4 {
+body h1, body .h1, body h2, body .h2, body h3, body .h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -20278,7 +20278,7 @@ header nav .burger i, header .navbar-menu .burger i {
 .main-content .content-1 .promo-campaign {
   flex: 0 0 60%; /* 60% width */
   background-color: #f4f4f4;
-  background-image: url("../images/promotion.png");
+  background-image: url("../images/promotional.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
